@@ -66,7 +66,7 @@
 		default_layer {
 			label = "Base";
 			bindings = <
-			&kp Y &kp C &kp L &kp M &kp K                           &kp Z &kp F &kp U            &kp COMMA &kp DELETE
+			&kp Y &kp C &kp L &kp M &kp K                           &kp Z &kp F &kp U            &kp COMMA &kp BSPC
 			&kp I &kp S &kp R &kp T &kp G                           &kp P &kp N &kp E            &kp A     &kp O
 			&kp Q &kp V &kp W &kp D &kp J                           &kp B &kp H &kp SINGLE_QUOTE &kp DOT   &kp X
 							&kp SPACE &sk LSHIFT           &mo MOD &to SYM
@@ -77,7 +77,7 @@
 		mod_layer {
 			label = "Mods";
 			bindings = <
-			&kp ESCAPE &kp BACKSLASH &kp UP   &kp DOLLAR &kp TILDE		                         &none &none    &kp SEMICOLON  &kp COLON   &kp DELETE
+			&kp ESCAPE &kp BACKSLASH &kp UP   &kp DOLLAR &kp TILDE		                         &none &none    &kp SEMICOLON  &kp COLON   &kp BSPC
 			&kp TAB    &kp LEFT      &kp DOWN &kp LEFT   &kp MINUS                               &none &none    &none          &none       &kp RET
 			&none      &sk LCTRL     &sk LALT &sk LGUI   &none 	                                 &none &sk RGUI &sk RALT       &sk RCTRL   &none
 													             &kp SPACE  &sk LSHIFT         &trans &none
@@ -89,7 +89,7 @@
 		sym_layer {
 			label = "Sym.";
 			bindings = <
-			&kp ESCAPE &none     &kp KP_MULTIPLY &kp CARET    &none		                            &kp AMPERSAND    &kp AT_SIGN          &kp HASH              &kp PERCENT       &kp DELETE
+			&kp ESCAPE &none     &kp KP_MULTIPLY &kp CARET    &none		                            &kp AMPERSAND    &kp AT_SIGN          &kp HASH              &kp PERCENT       &kp BSPC
 			&kp TAB    &kp MINUS &kp PLUS        &kp EQUAL    &kp GRAVE                             &kp PIPE         &kp LEFT_BRACE       &kp RIGHT_BRACE       &kp SLASH         &kp RET
 			&to NUMB   &none     &kp EXCLAMATION &kp QUESTION &kp DOUBLE_QUOTES 	                &kp LEFT_BRACKET &kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp RIGHT_BRACKET &none
 													 	          &kp SPACE  &sk LSHIFT         &mo MOD &to BASE
@@ -100,7 +100,7 @@
 		fnc_layer {
 			label = "Numb.";
 			bindings = <
-			&kp ESCAPE &kp COMMA  &kp KP_MULTIPLY &kp CARET &none                               &none  &kp N7 &kp N8 &kp N9 &kp DELETE
+			&kp ESCAPE &kp COMMA  &kp KP_MULTIPLY &kp CARET &none                               &none  &kp N7 &kp N8 &kp N9 &kp BSPC
 			&kp TAB    &kp MINUS  &kp PLUS        &kp EQUAL &none                               &none  &kp N4 &kp N5 &kp N6 &kp RET
 			&none      &kp PERIOD &none           &none     &none				                &kp N0 &kp N1 &kp N2 &kp N3 &none
 							                               &kp SPACE  &sk LSHIFT              &mo MOD &to BASE
