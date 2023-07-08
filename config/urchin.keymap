@@ -78,7 +78,7 @@
 			label = "Mods";
 			bindings = <
 			&kp ESCAPE &kp BACKSLASH &kp UP   &kp DOLLAR &kp TILDE		                         &none &none    &kp SEMICOLON  &kp COLON   &kp BSPC
-			&kp TAB    &kp LEFT      &kp DOWN &kp LEFT   &kp MINUS                               &none &none    &none          &none       &kp RET
+			&kp TAB    &kp LEFT      &kp DOWN &kp RIGHT   &kp MINUS                               &none &none    &none          &none       &kp RET
 			&none      &sk LCTRL     &sk LALT &sk LGUI   &none 	                                 &none &sk RGUI &sk RALT       &sk RCTRL   &none
 													             &kp SPACE  &sk LSHIFT         &trans &none
 			>;
