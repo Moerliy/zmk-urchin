@@ -11,9 +11,9 @@
 
 // Layer definitions
 #define BASE 0
-#define MOD 1
-#define SYM 2
-#define NUMB 3
+#define SYM 1
+#define NUMB 2
+#define MOD 3
 #define SETTINGS 4
 // -----------------
 
