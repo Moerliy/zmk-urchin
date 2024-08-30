@@ -63,14 +63,14 @@
     // both right thumb keys
 		combo_one_hander_right {
 			timeout-ms = <200>;
-			key-positions = <15 16>;
+			key-positions = <32 33>;
 			bindings = <&mo ONE_HANDER>;
 		};
 
     // both left and right thumb keys
 		combo_settings {
 			timeout-ms = <200>;
-			key-positions = <15 16 30 31>;
+			key-positions = <30 31 32 33>;
 			bindings = <&mo SETTINGS>;
 		};
 	};
