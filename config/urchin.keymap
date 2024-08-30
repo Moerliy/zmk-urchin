@@ -57,14 +57,14 @@
 		combo_one_hander_left {
 			timeout-ms = <200>;
 			key-positions = <30 31>;
-			bindings = <&mo ONE_HANDER>;
+			bindings = <&tog ONE_HANDER>;
 		};
 
     // both right thumb keys
 		combo_one_hander_right {
 			timeout-ms = <200>;
 			key-positions = <32 33>;
-			bindings = <&mo ONE_HANDER>;
+			bindings = <&tog ONE_HANDER>;
 		};
 
     // both left and right thumb keys
